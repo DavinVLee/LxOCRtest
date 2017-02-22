@@ -40,7 +40,35 @@
 		C94BBC971E5DCE2A00690438 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC961E5DCE2A00690438 /* CoreVideo.framework */; };
 		C94BBC991E5DCE3100690438 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC981E5DCE3100690438 /* CoreMedia.framework */; };
 		C94BBC9B1E5DCE3800690438 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */; };
-		C94BBCA01E5DCE8800690438 /* LxPlateRegManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */; };
+		C94BBCA21E5DCFE700690438 /* image in Resources */ = {isa = PBXBuildFile; fileRef = C94BBCA11E5DCFE700690438 /* image */; };
+		C94BBCA41E5DD09B00690438 /* etc in Resources */ = {isa = PBXBuildFile; fileRef = C94BBCA31E5DD09B00690438 /* etc */; };
+		C94BBCA61E5DD0A800690438 /* model in Resources */ = {isa = PBXBuildFile; fileRef = C94BBCA51E5DD0A800690438 /* model */; };
+		C94BBCB71E5DD0B200690438 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCA91E5DD0B200690438 /* helper.cpp */; };
+		C94BBCB81E5DD0B200690438 /* lbp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCAB1E5DD0B200690438 /* lbp.cpp */; };
+		C94BBCB91E5DD0B200690438 /* mser2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCAE1E5DD0B200690438 /* mser2.cpp */; };
+		C94BBCBA1E5DD0B200690438 /* erfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCB11E5DD0B200690438 /* erfilter.cpp */; };
+		C94BBCBB1E5DD0B200690438 /* AFPL-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94BBCB41E5DD0B200690438 /* AFPL-license.txt */; };
+		C94BBCBC1E5DD0B200690438 /* xmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCB51E5DD0B200690438 /* xmlParser.cpp */; };
+		C94BBCD61E5DD0BF00690438 /* chars_identify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCBF1E5DD0BF00690438 /* chars_identify.cpp */; };
+		C94BBCD71E5DD0BF00690438 /* chars_recognise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC01E5DD0BF00690438 /* chars_recognise.cpp */; };
+		C94BBCD81E5DD0BF00690438 /* chars_segment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC11E5DD0BF00690438 /* chars_segment.cpp */; };
+		C94BBCD91E5DD0BF00690438 /* core_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC21E5DD0BF00690438 /* core_func.cpp */; };
+		C94BBCDA1E5DD0BF00690438 /* feature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC31E5DD0BF00690438 /* feature.cpp */; };
+		C94BBCDB1E5DD0BF00690438 /* params.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC41E5DD0BF00690438 /* params.cpp */; };
+		C94BBCDD1E5DD0BF00690438 /* plate_detect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC61E5DD0BF00690438 /* plate_detect.cpp */; };
+		C94BBCDF1E5DD0BF00690438 /* plate_locate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC81E5DD0BF00690438 /* plate_locate.cpp */; };
+		C94BBCE01E5DD0BF00690438 /* plate_recognize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCC91E5DD0BF00690438 /* plate_recognize.cpp */; };
+		C94BBCE11E5DD0BF00690438 /* deface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCCB1E5DD0BF00690438 /* deface.cpp */; };
+		C94BBCE21E5DD0BF00690438 /* gdts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCCC1E5DD0BF00690438 /* gdts.cpp */; };
+		C94BBCE31E5DD0BF00690438 /* mc_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCCD1E5DD0BF00690438 /* mc_data.cpp */; };
+		C94BBCE71E5DD0BF00690438 /* kv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCD31E5DD0BF00690438 /* kv.cpp */; };
+		C94BBCE81E5DD0BF00690438 /* program_options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCD41E5DD0BF00690438 /* program_options.cpp */; };
+		C94BBCE91E5DD0BF00690438 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCD51E5DD0BF00690438 /* util.cpp */; };
+		C94BBCF11E5DD10200690438 /* GlobalData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCEB1E5DD10200690438 /* GlobalData.cpp */; };
+		C94BBCF21E5DD10200690438 /* LxPlateRegManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */; };
+		C94BBCF31E5DD10200690438 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */; };
+		C94BBCF61E5DD14100690438 /* EasyPR_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCF41E5DD14100690438 /* EasyPR_iOS.xcdatamodeld */; };
+		C94BBD1A1E5DD80F00690438 /* plate_judge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBD191E5DD80F00690438 /* plate_judge.cpp */; };
 		CAC1864BEC4263C455CF42BA /* libPods-ORC-testProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */; };
 		D6AE204924352B37E23B8A2E /* libPods-ORC-testProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B6D6AF55E9926EDFBC293 /* libPods-ORC-testProjectUITests.a */; };
 /* End PBXBuildFile section */
@@ -110,8 +138,43 @@
 		C94BBC961E5DCE2A00690438 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		C94BBC981E5DCE3100690438 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		C94BBC9E1E5DCE8800690438 /* LxPlateRegManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxPlateRegManage.h; sourceTree = "<group>"; };
-		C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPlateRegManage.m; sourceTree = "<group>"; };
+		C94BBCA11E5DCFE700690438 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; path = image; sourceTree = "<group>"; };
+		C94BBCA31E5DD09B00690438 /* etc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = etc; sourceTree = "<group>"; };
+		C94BBCA51E5DD0A800690438 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		C94BBCA91E5DD0B200690438 /* helper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
+		C94BBCAA1E5DD0B200690438 /* helper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = helper.hpp; sourceTree = "<group>"; };
+		C94BBCAB1E5DD0B200690438 /* lbp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lbp.cpp; sourceTree = "<group>"; };
+		C94BBCAC1E5DD0B200690438 /* lbp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lbp.hpp; sourceTree = "<group>"; };
+		C94BBCAE1E5DD0B200690438 /* mser2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mser2.cpp; sourceTree = "<group>"; };
+		C94BBCAF1E5DD0B200690438 /* mser2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mser2.hpp; sourceTree = "<group>"; };
+		C94BBCB11E5DD0B200690438 /* erfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = erfilter.cpp; sourceTree = "<group>"; };
+		C94BBCB21E5DD0B200690438 /* erfilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = erfilter.hpp; sourceTree = "<group>"; };
+		C94BBCB41E5DD0B200690438 /* AFPL-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AFPL-license.txt"; sourceTree = "<group>"; };
+		C94BBCB51E5DD0B200690438 /* xmlParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xmlParser.cpp; sourceTree = "<group>"; };
+		C94BBCB61E5DD0B200690438 /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
+		C94BBCBF1E5DD0BF00690438 /* chars_identify.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chars_identify.cpp; sourceTree = "<group>"; };
+		C94BBCC01E5DD0BF00690438 /* chars_recognise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chars_recognise.cpp; sourceTree = "<group>"; };
+		C94BBCC11E5DD0BF00690438 /* chars_segment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chars_segment.cpp; sourceTree = "<group>"; };
+		C94BBCC21E5DD0BF00690438 /* core_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = core_func.cpp; sourceTree = "<group>"; };
+		C94BBCC31E5DD0BF00690438 /* feature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = feature.cpp; sourceTree = "<group>"; };
+		C94BBCC41E5DD0BF00690438 /* params.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = params.cpp; sourceTree = "<group>"; };
+		C94BBCC61E5DD0BF00690438 /* plate_detect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plate_detect.cpp; sourceTree = "<group>"; };
+		C94BBCC81E5DD0BF00690438 /* plate_locate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plate_locate.cpp; sourceTree = "<group>"; };
+		C94BBCC91E5DD0BF00690438 /* plate_recognize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plate_recognize.cpp; sourceTree = "<group>"; };
+		C94BBCCB1E5DD0BF00690438 /* deface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deface.cpp; sourceTree = "<group>"; };
+		C94BBCCC1E5DD0BF00690438 /* gdts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gdts.cpp; sourceTree = "<group>"; };
+		C94BBCCD1E5DD0BF00690438 /* mc_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mc_data.cpp; sourceTree = "<group>"; };
+		C94BBCD31E5DD0BF00690438 /* kv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = kv.cpp; sourceTree = "<group>"; };
+		C94BBCD41E5DD0BF00690438 /* program_options.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = program_options.cpp; sourceTree = "<group>"; };
+		C94BBCD51E5DD0BF00690438 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		C94BBCEB1E5DD10200690438 /* GlobalData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalData.cpp; sourceTree = "<group>"; };
+		C94BBCEC1E5DD10200690438 /* GlobalData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GlobalData.hpp; sourceTree = "<group>"; };
+		C94BBCED1E5DD10200690438 /* LxPlateRegManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxPlateRegManage.h; sourceTree = "<group>"; };
+		C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPlateRegManage.m; sourceTree = "<group>"; };
+		C94BBCEF1E5DD10200690438 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		C94BBCF51E5DD14100690438 /* EasyPR_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyPR_iOS.xcdatamodel; sourceTree = "<group>"; };
+		C94BBD191E5DD80F00690438 /* plate_judge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plate_judge.cpp; sourceTree = "<group>"; };
 		CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8B91C672E124C6B83FF5A1 /* libPods-ORC-testProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -220,13 +283,18 @@
 		C9222A941E52F2220016AC3F /* ORC-testProject */ = {
 			isa = PBXGroup;
 			children = (
+				C94BBCBD1E5DD0BF00690438 /* src */,
+				C94BBCA71E5DD0B200690438 /* thirdparty */,
+				C94BBCA51E5DD0A800690438 /* model */,
+				C94BBCA31E5DD09B00690438 /* etc */,
+				C94BBCA11E5DCFE700690438 /* image */,
 				C911685B1E545D390036EEAA /* tessdata */,
 				C9222A981E52F2220016AC3F /* AppDelegate.h */,
 				C9222A991E52F2220016AC3F /* AppDelegate.m */,
-				C94BBC9E1E5DCE8800690438 /* LxPlateRegManage.h */,
-				C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */,
+				C94BBCEA1E5DD10200690438 /* ImageDealManage */,
 				C9222A9B1E52F2220016AC3F /* ViewController.h */,
 				C9222A9C1E52F2220016AC3F /* ViewController.m */,
+				C94BBCF41E5DD14100690438 /* EasyPR_iOS.xcdatamodeld */,
 				C9222A9E1E52F2220016AC3F /* Main.storyboard */,
 				C9222AA11E52F2220016AC3F /* Assets.xcassets */,
 				C9222AA31E52F2220016AC3F /* LaunchScreen.storyboard */,
@@ -261,6 +329,116 @@
 				C9222ABC1E52F2220016AC3F /* Info.plist */,
 			);
 			path = "ORC-testProjectUITests";
+			sourceTree = "<group>";
+		};
+		C94BBCA71E5DD0B200690438 /* thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCA81E5DD0B200690438 /* LBP */,
+				C94BBCAD1E5DD0B200690438 /* mser */,
+				C94BBCB01E5DD0B200690438 /* textDetect */,
+				C94BBCB31E5DD0B200690438 /* xmlParser */,
+			);
+			path = thirdparty;
+			sourceTree = "<group>";
+		};
+		C94BBCA81E5DD0B200690438 /* LBP */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCA91E5DD0B200690438 /* helper.cpp */,
+				C94BBCAA1E5DD0B200690438 /* helper.hpp */,
+				C94BBCAB1E5DD0B200690438 /* lbp.cpp */,
+				C94BBCAC1E5DD0B200690438 /* lbp.hpp */,
+			);
+			path = LBP;
+			sourceTree = "<group>";
+		};
+		C94BBCAD1E5DD0B200690438 /* mser */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCAE1E5DD0B200690438 /* mser2.cpp */,
+				C94BBCAF1E5DD0B200690438 /* mser2.hpp */,
+			);
+			path = mser;
+			sourceTree = "<group>";
+		};
+		C94BBCB01E5DD0B200690438 /* textDetect */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCB11E5DD0B200690438 /* erfilter.cpp */,
+				C94BBCB21E5DD0B200690438 /* erfilter.hpp */,
+			);
+			path = textDetect;
+			sourceTree = "<group>";
+		};
+		C94BBCB31E5DD0B200690438 /* xmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCB41E5DD0B200690438 /* AFPL-license.txt */,
+				C94BBCB51E5DD0B200690438 /* xmlParser.cpp */,
+				C94BBCB61E5DD0B200690438 /* xmlParser.h */,
+			);
+			path = xmlParser;
+			sourceTree = "<group>";
+		};
+		C94BBCBD1E5DD0BF00690438 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCBE1E5DD0BF00690438 /* core */,
+				C94BBCCA1E5DD0BF00690438 /* preprocess */,
+				C94BBCD21E5DD0BF00690438 /* util */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C94BBCBE1E5DD0BF00690438 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCBF1E5DD0BF00690438 /* chars_identify.cpp */,
+				C94BBCC01E5DD0BF00690438 /* chars_recognise.cpp */,
+				C94BBCC11E5DD0BF00690438 /* chars_segment.cpp */,
+				C94BBCC21E5DD0BF00690438 /* core_func.cpp */,
+				C94BBCC31E5DD0BF00690438 /* feature.cpp */,
+				C94BBD191E5DD80F00690438 /* plate_judge.cpp */,
+				C94BBCC41E5DD0BF00690438 /* params.cpp */,
+				C94BBCC61E5DD0BF00690438 /* plate_detect.cpp */,
+				C94BBCC81E5DD0BF00690438 /* plate_locate.cpp */,
+				C94BBCC91E5DD0BF00690438 /* plate_recognize.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		C94BBCCA1E5DD0BF00690438 /* preprocess */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCCB1E5DD0BF00690438 /* deface.cpp */,
+				C94BBCCC1E5DD0BF00690438 /* gdts.cpp */,
+				C94BBCCD1E5DD0BF00690438 /* mc_data.cpp */,
+			);
+			path = preprocess;
+			sourceTree = "<group>";
+		};
+		C94BBCD21E5DD0BF00690438 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCD31E5DD0BF00690438 /* kv.cpp */,
+				C94BBCD41E5DD0BF00690438 /* program_options.cpp */,
+				C94BBCD51E5DD0BF00690438 /* util.cpp */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		C94BBCEA1E5DD10200690438 /* ImageDealManage */ = {
+			isa = PBXGroup;
+			children = (
+				C94BBCEB1E5DD10200690438 /* GlobalData.cpp */,
+				C94BBCEC1E5DD10200690438 /* GlobalData.hpp */,
+				C94BBCED1E5DD10200690438 /* LxPlateRegManage.h */,
+				C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */,
+				C94BBCEF1E5DD10200690438 /* UIImageCVMatConverter.h */,
+				C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */,
+			);
+			path = ImageDealManage;
 			sourceTree = "<group>";
 		};
 		FA4BCE552BAA411C49C91EE8 /* Pods */ = {
@@ -395,12 +573,16 @@
 				C91168481E5408C50036EEAA /* 6AC6E71A-634E-4E61-B928-53555ADBD124.png in Resources */,
 				C911685C1E545D390036EEAA /* tessdata in Resources */,
 				C91168361E5352EA0036EEAA /* 43318609.jpg in Resources */,
+				C94BBCA21E5DCFE700690438 /* image in Resources */,
 				C91168391E5352EA0036EEAA /* images.jpeg in Resources */,
 				C9222AA51E52F2220016AC3F /* LaunchScreen.storyboard in Resources */,
 				C91168381E5352EA0036EEAA /* F200810140832501841395882.jpg in Resources */,
 				C9222AA21E52F2220016AC3F /* Assets.xcassets in Resources */,
 				C91168541E545B2E0036EEAA /* LB18_001.jpg in Resources */,
+				C94BBCBB1E5DD0B200690438 /* AFPL-license.txt in Resources */,
+				C94BBCA41E5DD09B00690438 /* etc in Resources */,
 				C91168581E545B3A0036EEAA /* images (3).jpeg in Resources */,
+				C94BBCA61E5DD0A800690438 /* model in Resources */,
 				C91168561E545B340036EEAA /* bbb.jpeg in Resources */,
 				C91168271E533FD30036EEAA /* Lenore.png in Resources */,
 				C911685A1E545B3F0036EEAA /* images (1).jpeg in Resources */,
@@ -570,10 +752,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94BBCF31E5DD10200690438 /* UIImageCVMatConverter.mm in Sources */,
+				C94BBCE11E5DD0BF00690438 /* deface.cpp in Sources */,
+				C94BBCD71E5DD0BF00690438 /* chars_recognise.cpp in Sources */,
+				C94BBCE81E5DD0BF00690438 /* program_options.cpp in Sources */,
+				C94BBCB81E5DD0B200690438 /* lbp.cpp in Sources */,
 				C9222A9D1E52F2220016AC3F /* ViewController.m in Sources */,
+				C94BBCBA1E5DD0B200690438 /* erfilter.cpp in Sources */,
+				C94BBCF11E5DD10200690438 /* GlobalData.cpp in Sources */,
+				C94BBCD91E5DD0BF00690438 /* core_func.cpp in Sources */,
+				C94BBCDB1E5DD0BF00690438 /* params.cpp in Sources */,
+				C94BBCF61E5DD14100690438 /* EasyPR_iOS.xcdatamodeld in Sources */,
+				C94BBCBC1E5DD0B200690438 /* xmlParser.cpp in Sources */,
 				C9222A9A1E52F2220016AC3F /* AppDelegate.m in Sources */,
-				C94BBCA01E5DCE8800690438 /* LxPlateRegManage.m in Sources */,
+				C94BBCDD1E5DD0BF00690438 /* plate_detect.cpp in Sources */,
+				C94BBCB71E5DD0B200690438 /* helper.cpp in Sources */,
+				C94BBCF21E5DD10200690438 /* LxPlateRegManage.m in Sources */,
+				C94BBCE71E5DD0BF00690438 /* kv.cpp in Sources */,
+				C94BBCE91E5DD0BF00690438 /* util.cpp in Sources */,
+				C94BBCDF1E5DD0BF00690438 /* plate_locate.cpp in Sources */,
 				C9222A971E52F2220016AC3F /* main.m in Sources */,
+				C94BBCDA1E5DD0BF00690438 /* feature.cpp in Sources */,
+				C94BBCD81E5DD0BF00690438 /* chars_segment.cpp in Sources */,
+				C94BBCE31E5DD0BF00690438 /* mc_data.cpp in Sources */,
+				C94BBCB91E5DD0B200690438 /* mser2.cpp in Sources */,
+				C94BBD1A1E5DD80F00690438 /* plate_judge.cpp in Sources */,
+				C94BBCE21E5DD0BF00690438 /* gdts.cpp in Sources */,
+				C94BBCD61E5DD0BF00690438 /* chars_identify.cpp in Sources */,
+				C94BBCE01E5DD0BF00690438 /* plate_recognize.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +933,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ORC-testProject",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/TesseractOCRiOS\"",
+					"\"$(SRCROOT)/include/\"",
+				);
 				INFOPLIST_FILE = "ORC-testProject/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -764,6 +977,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ORC-testProject",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/TesseractOCRiOS\"",
+					"\"$(SRCROOT)/include/\"",
 				);
 				INFOPLIST_FILE = "ORC-testProject/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -882,6 +1102,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C94BBCF41E5DD14100690438 /* EasyPR_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C94BBCF51E5DD14100690438 /* EasyPR_iOS.xcdatamodel */,
+			);
+			currentVersion = C94BBCF51E5DD14100690438 /* EasyPR_iOS.xcdatamodel */;
+			path = EasyPR_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C9222A8A1E52F2220016AC3F /* Project object */;
 }
