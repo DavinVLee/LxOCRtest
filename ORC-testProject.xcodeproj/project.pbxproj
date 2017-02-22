@@ -32,6 +32,15 @@
 		C9222AA51E52F2220016AC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9222AA31E52F2220016AC3F /* LaunchScreen.storyboard */; };
 		C9222AB01E52F2220016AC3F /* ORC_testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9222AAF1E52F2220016AC3F /* ORC_testProjectTests.m */; };
 		C9222ABB1E52F2220016AC3F /* ORC_testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9222ABA1E52F2220016AC3F /* ORC_testProjectUITests.m */; };
+		C94BBC8D1E5DCDFF00690438 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC8C1E5DCDFF00690438 /* libc++.tbd */; };
+		C94BBC8F1E5DCE0600690438 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC8E1E5DCE0600690438 /* AVFoundation.framework */; };
+		C94BBC911E5DCE1400690438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC901E5DCE1400690438 /* CoreGraphics.framework */; };
+		C94BBC931E5DCE1D00690438 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC921E5DCE1D00690438 /* QuartzCore.framework */; };
+		C94BBC951E5DCE2300690438 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC941E5DCE2300690438 /* Accelerate.framework */; };
+		C94BBC971E5DCE2A00690438 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC961E5DCE2A00690438 /* CoreVideo.framework */; };
+		C94BBC991E5DCE3100690438 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC981E5DCE3100690438 /* CoreMedia.framework */; };
+		C94BBC9B1E5DCE3800690438 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */; };
+		C94BBCA01E5DCE8800690438 /* LxPlateRegManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */; };
 		CAC1864BEC4263C455CF42BA /* libPods-ORC-testProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */; };
 		D6AE204924352B37E23B8A2E /* libPods-ORC-testProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B6D6AF55E9926EDFBC293 /* libPods-ORC-testProjectUITests.a */; };
 /* End PBXBuildFile section */
@@ -93,6 +102,16 @@
 		C9222AB61E52F2220016AC3F /* ORC-testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ORC-testProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9222ABA1E52F2220016AC3F /* ORC_testProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORC_testProjectUITests.m; sourceTree = "<group>"; };
 		C9222ABC1E52F2220016AC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94BBC8C1E5DCDFF00690438 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C94BBC8E1E5DCE0600690438 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C94BBC901E5DCE1400690438 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C94BBC921E5DCE1D00690438 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C94BBC941E5DCE2300690438 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C94BBC961E5DCE2A00690438 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C94BBC981E5DCE3100690438 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C94BBC9E1E5DCE8800690438 /* LxPlateRegManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxPlateRegManage.h; sourceTree = "<group>"; };
+		C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPlateRegManage.m; sourceTree = "<group>"; };
 		CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8B91C672E124C6B83FF5A1 /* libPods-ORC-testProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,7 +121,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94BBC9B1E5DCE3800690438 /* AssetsLibrary.framework in Frameworks */,
+				C94BBC991E5DCE3100690438 /* CoreMedia.framework in Frameworks */,
+				C94BBC971E5DCE2A00690438 /* CoreVideo.framework in Frameworks */,
+				C94BBC951E5DCE2300690438 /* Accelerate.framework in Frameworks */,
+				C94BBC931E5DCE1D00690438 /* QuartzCore.framework in Frameworks */,
+				C94BBC911E5DCE1400690438 /* CoreGraphics.framework in Frameworks */,
 				C91168241E533F2C0036EEAA /* CoreImage.framework in Frameworks */,
+				C94BBC8F1E5DCE0600690438 /* AVFoundation.framework in Frameworks */,
+				C94BBC8D1E5DCDFF00690438 /* libc++.tbd in Frameworks */,
 				C91168221E533F230036EEAA /* libstdc++.6.0.9.tbd in Frameworks */,
 				C91168201E533F130036EEAA /* libTesseractOCRiOS.a in Frameworks */,
 				254EAE6CEDB1DD5890A02A52 /* libPods-ORC-testProject.a in Frameworks */,
@@ -131,6 +158,14 @@
 		1A35AFE82D7473CFE429162F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */,
+				C94BBC981E5DCE3100690438 /* CoreMedia.framework */,
+				C94BBC961E5DCE2A00690438 /* CoreVideo.framework */,
+				C94BBC941E5DCE2300690438 /* Accelerate.framework */,
+				C94BBC921E5DCE1D00690438 /* QuartzCore.framework */,
+				C94BBC901E5DCE1400690438 /* CoreGraphics.framework */,
+				C94BBC8E1E5DCE0600690438 /* AVFoundation.framework */,
+				C94BBC8C1E5DCDFF00690438 /* libc++.tbd */,
 				C91168231E533F2C0036EEAA /* CoreImage.framework */,
 				C91168211E533F230036EEAA /* libstdc++.6.0.9.tbd */,
 				C911681F1E533F130036EEAA /* libTesseractOCRiOS.a */,
@@ -188,6 +223,8 @@
 				C911685B1E545D390036EEAA /* tessdata */,
 				C9222A981E52F2220016AC3F /* AppDelegate.h */,
 				C9222A991E52F2220016AC3F /* AppDelegate.m */,
+				C94BBC9E1E5DCE8800690438 /* LxPlateRegManage.h */,
+				C94BBC9F1E5DCE8800690438 /* LxPlateRegManage.m */,
 				C9222A9B1E52F2220016AC3F /* ViewController.h */,
 				C9222A9C1E52F2220016AC3F /* ViewController.m */,
 				C9222A9E1E52F2220016AC3F /* Main.storyboard */,
@@ -535,6 +572,7 @@
 			files = (
 				C9222A9D1E52F2220016AC3F /* ViewController.m in Sources */,
 				C9222A9A1E52F2220016AC3F /* AppDelegate.m in Sources */,
+				C94BBCA01E5DCE8800690438 /* LxPlateRegManage.m in Sources */,
 				C9222A971E52F2220016AC3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
