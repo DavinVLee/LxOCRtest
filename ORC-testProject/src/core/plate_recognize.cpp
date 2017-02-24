@@ -246,7 +246,8 @@ int CPlateRecognize::plateRecognize(Mat src, std::vector<CPlate> &plateVecOut, i
       int resultCR = charsRecognise(item, plateIdentify);
 
       if (resultCR == 0) {
-        std::string license = plateColor + ":" + plateIdentify;
+        //TODO:std::string license = plateColor + ":" + plateIdentify;此处返回车牌颜色和车牌
+          std::string license = plateIdentify;
         item.setPlateStr(license);
         plateVecOut.push_back(item);
       }

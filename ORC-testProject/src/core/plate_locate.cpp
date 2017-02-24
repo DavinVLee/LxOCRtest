@@ -26,23 +26,23 @@ CPlateLocate::CPlateLocate() {
 }
 
 void CPlateLocate::setLifemode(bool param) {
-  if (param) {
+//  if (param) {
     setGaussianBlurSize(5);
-    setMorphSizeWidth(10);
+    setMorphSizeWidth(7);
     setMorphSizeHeight(3);
-    setVerifyError(0.75);
+    setVerifyError(0.9);
     setVerifyAspect(4.0);
     setVerifyMin(1);
-    setVerifyMax(200);
-  } else {
-    setGaussianBlurSize(DEFAULT_GAUSSIANBLUR_SIZE);
-    setMorphSizeWidth(DEFAULT_MORPH_SIZE_WIDTH);
-    setMorphSizeHeight(DEFAULT_MORPH_SIZE_HEIGHT);
-    setVerifyError(DEFAULT_ERROR);
-    setVerifyAspect(DEFAULT_ASPECT);
-    setVerifyMin(DEFAULT_VERIFY_MIN);
-    setVerifyMax(DEFAULT_VERIFY_MAX);
-  }
+    setVerifyMax(30);
+//  } else {
+//    setGaussianBlurSize(DEFAULT_GAUSSIANBLUR_SIZE);
+//    setMorphSizeWidth(DEFAULT_MORPH_SIZE_WIDTH);
+//    setMorphSizeHeight(DEFAULT_MORPH_SIZE_HEIGHT);
+//    setVerifyError(DEFAULT_ERROR);
+//    setVerifyAspect(DEFAULT_ASPECT);
+//    setVerifyMin(DEFAULT_VERIFY_MIN);
+//    setVerifyMax(DEFAULT_VERIFY_MAX);
+//  }
 }
 
 bool CPlateLocate::verifySizes(RotatedRect mr) {

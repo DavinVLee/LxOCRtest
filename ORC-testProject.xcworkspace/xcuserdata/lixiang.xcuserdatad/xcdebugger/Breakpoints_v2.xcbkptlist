@@ -20,12 +20,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509592596.673998"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "-recognizeSetup"
+            startingLineNumber = "359"
+            endingLineNumber = "359"
+            landmarkName = "-plateRecognition:withOriginalSize:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -36,7 +36,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509575881.802692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "94"
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509575881.802692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "-recognizeSetup"
             landmarkType = "7">
          </BreakpointContent>
@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509575881.802692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-recognizeSetup"
             landmarkType = "7">
          </BreakpointContent>
@@ -84,11 +84,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509575881.802692"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "-recognizeSetup"
             landmarkType = "7">
          </BreakpointContent>
@@ -100,12 +100,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509592596.673998"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-recognizeSetup"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "-plateRecognition:withOriginalSize:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -116,12 +116,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            timestampString = "509592596.673998"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "-recognizeSetup"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "-plateRecognition:withOriginalSize:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -131,13 +131,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            filePath = "ORC-testProject/ImageDealManage/LxCameraView.m"
+            timestampString = "509577879.950164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "-recognizeSetup"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "-shutterCamera"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -147,45 +147,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
+            filePath = "ORC-testProject/ImageDealManage/LxCameraView.m"
+            timestampString = "509577879.950164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-recognizeSetup"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
-            landmarkName = "-tableView:numberOfRowsInSection:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ORC-testProject/ViewController.mm"
-            timestampString = "509479716.540171"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "245"
-            endingLineNumber = "245"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "-shutterCamera"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

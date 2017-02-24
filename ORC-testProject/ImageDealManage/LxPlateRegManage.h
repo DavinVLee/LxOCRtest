@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @interface LxPlateRegManage : NSObject
+
 
 @end

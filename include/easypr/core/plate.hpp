@@ -130,7 +130,7 @@ namespace easypr {
       return (m_score < plate.m_score);
     }
 
-  private:
+  public:
     //! plate mat
     Mat m_plateMat;
 

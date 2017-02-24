@@ -25,5 +25,10 @@ using namespace cv;
 + (UIImage *)scaleAndRotateImageBackCamera:(UIImage *)image;
 +(UIImage*) imageWithMat:(const cv::Mat&) image andImageOrientation: (UIImageOrientation) orientation;
 +(UIImage*) imageWithMat:(const cv::Mat&) image andDeviceOrientation: (UIDeviceOrientation) orientation;
+
+/**
+ *将图片旋转固定角度
+ */
++ (UIImage *)countImageAngle:(double)angle mat:(cv::Mat)img center:(CGPoint)center;
 @end
 #endif /* defined(__FaceRig__UIImageCVMatConverter__) */

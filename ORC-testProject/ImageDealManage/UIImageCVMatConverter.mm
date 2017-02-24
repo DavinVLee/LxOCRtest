@@ -312,4 +312,18 @@
     UIImage *returnImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return returnImage;
-}@end
+}
+
+
++ (UIImage *)countImageAngle:(double)angle mat:(cv::Mat)img center:(CGPoint)center;
+{
+//    Point2f centerPoint(center.x,center.y);
+//    cv::Mat rotmat = getRotationMatrix2D(centerPoint, angle, 1);
+//    cv::Mat img_rotated;
+//    warpAffine(img, img_rotated, img.size(), CV_INTER_CUBIC);
+//    
+    
+//    UIImage *image = [UIImageCVMatConverter imageWithMat:img_rotated andImageOrientation:UIImageOrientationUp];
+    return [UIImage new];
+}
+@end

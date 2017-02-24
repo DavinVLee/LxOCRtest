@@ -64,11 +64,16 @@
 		C94BBCE81E5DD0BF00690438 /* program_options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCD41E5DD0BF00690438 /* program_options.cpp */; };
 		C94BBCE91E5DD0BF00690438 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCD51E5DD0BF00690438 /* util.cpp */; };
 		C94BBCF11E5DD10200690438 /* GlobalData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCEB1E5DD10200690438 /* GlobalData.cpp */; };
-		C94BBCF21E5DD10200690438 /* LxPlateRegManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */; };
+		C94BBCF21E5DD10200690438 /* LxPlateRegManage.mm in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCEE1E5DD10200690438 /* LxPlateRegManage.mm */; };
 		C94BBCF31E5DD10200690438 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */; };
 		C94BBCF61E5DD14100690438 /* EasyPR_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94BBCF41E5DD14100690438 /* EasyPR_iOS.xcdatamodeld */; };
 		C94BBD1A1E5DD80F00690438 /* plate_judge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C94BBD191E5DD80F00690438 /* plate_judge.cpp */; };
 		C94BBD1F1E5E01E000690438 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94BBC9A1E5DCE3800690438 /* AssetsLibrary.framework */; };
+		C95845431E5F7DB20031CB5C /* photograph_Select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C958453F1E5F7DB20031CB5C /* photograph_Select@2x.png */; };
+		C95845441E5F7DB20031CB5C /* photograph_Select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C95845401E5F7DB20031CB5C /* photograph_Select@3x.png */; };
+		C95845451E5F7DB20031CB5C /* photograph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C95845411E5F7DB20031CB5C /* photograph@2x.png */; };
+		C95845461E5F7DB20031CB5C /* photograph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C95845421E5F7DB20031CB5C /* photograph@3x.png */; };
+		C95845491E5F7E3A0031CB5C /* LxCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95845481E5F7E3A0031CB5C /* LxCameraView.m */; };
 		CAC1864BEC4263C455CF42BA /* libPods-ORC-testProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */; };
 		D6AE204924352B37E23B8A2E /* libPods-ORC-testProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B6D6AF55E9926EDFBC293 /* libPods-ORC-testProjectUITests.a */; };
 /* End PBXBuildFile section */
@@ -170,7 +175,7 @@
 		C94BBCEB1E5DD10200690438 /* GlobalData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalData.cpp; sourceTree = "<group>"; };
 		C94BBCEC1E5DD10200690438 /* GlobalData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GlobalData.hpp; sourceTree = "<group>"; };
 		C94BBCED1E5DD10200690438 /* LxPlateRegManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxPlateRegManage.h; sourceTree = "<group>"; };
-		C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxPlateRegManage.m; sourceTree = "<group>"; };
+		C94BBCEE1E5DD10200690438 /* LxPlateRegManage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LxPlateRegManage.mm; sourceTree = "<group>"; };
 		C94BBCEF1E5DD10200690438 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
 		C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
 		C94BBCF51E5DD14100690438 /* EasyPR_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyPR_iOS.xcdatamodel; sourceTree = "<group>"; };
@@ -201,6 +206,12 @@
 		C94BBD3D1E5E075C00690438 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		C94BBD3E1E5E075C00690438 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		C94BBD3F1E5E075C00690438 /* easypr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easypr.h; sourceTree = "<group>"; };
+		C958453F1E5F7DB20031CB5C /* photograph_Select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@2x.png"; sourceTree = "<group>"; };
+		C95845401E5F7DB20031CB5C /* photograph_Select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph_Select@3x.png"; sourceTree = "<group>"; };
+		C95845411E5F7DB20031CB5C /* photograph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@2x.png"; sourceTree = "<group>"; };
+		C95845421E5F7DB20031CB5C /* photograph@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photograph@3x.png"; sourceTree = "<group>"; };
+		C95845471E5F7E3A0031CB5C /* LxCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxCameraView.h; sourceTree = "<group>"; };
+		C95845481E5F7E3A0031CB5C /* LxCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxCameraView.m; sourceTree = "<group>"; };
 		CB120E202C03702BFF3C834B /* libPods-ORC-testProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8B91C672E124C6B83FF5A1 /* libPods-ORC-testProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ORC-testProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -268,6 +279,10 @@
 		C91168251E533FC70036EEAA /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C958453F1E5F7DB20031CB5C /* photograph_Select@2x.png */,
+				C95845401E5F7DB20031CB5C /* photograph_Select@3x.png */,
+				C95845411E5F7DB20031CB5C /* photograph@2x.png */,
+				C95845421E5F7DB20031CB5C /* photograph@3x.png */,
 				C91168471E5408C50036EEAA /* 6AC6E71A-634E-4E61-B928-53555ADBD124.png */,
 				C91168261E533FD30036EEAA /* Lenore.png */,
 				C91168301E5352EA0036EEAA /* 1_093453108.jpg */,
@@ -461,9 +476,11 @@
 				C94BBCEB1E5DD10200690438 /* GlobalData.cpp */,
 				C94BBCEC1E5DD10200690438 /* GlobalData.hpp */,
 				C94BBCED1E5DD10200690438 /* LxPlateRegManage.h */,
-				C94BBCEE1E5DD10200690438 /* LxPlateRegManage.m */,
+				C94BBCEE1E5DD10200690438 /* LxPlateRegManage.mm */,
 				C94BBCEF1E5DD10200690438 /* UIImageCVMatConverter.h */,
 				C94BBCF01E5DD10200690438 /* UIImageCVMatConverter.mm */,
+				C95845471E5F7E3A0031CB5C /* LxCameraView.h */,
+				C95845481E5F7E3A0031CB5C /* LxCameraView.m */,
 			);
 			path = ImageDealManage;
 			sourceTree = "<group>";
@@ -670,6 +687,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95845451E5F7DB20031CB5C /* photograph@2x.png in Resources */,
 				C91168481E5408C50036EEAA /* 6AC6E71A-634E-4E61-B928-53555ADBD124.png in Resources */,
 				C911685C1E545D390036EEAA /* tessdata in Resources */,
 				C91168361E5352EA0036EEAA /* 43318609.jpg in Resources */,
@@ -679,13 +697,16 @@
 				C91168381E5352EA0036EEAA /* F200810140832501841395882.jpg in Resources */,
 				C9222AA21E52F2220016AC3F /* Assets.xcassets in Resources */,
 				C91168541E545B2E0036EEAA /* LB18_001.jpg in Resources */,
+				C95845441E5F7DB20031CB5C /* photograph_Select@3x.png in Resources */,
 				C94BBCBB1E5DD0B200690438 /* AFPL-license.txt in Resources */,
 				C94BBCA41E5DD09B00690438 /* etc in Resources */,
 				C91168581E545B3A0036EEAA /* images (3).jpeg in Resources */,
 				C94BBCA61E5DD0A800690438 /* model in Resources */,
 				C91168561E545B340036EEAA /* bbb.jpeg in Resources */,
 				C91168271E533FD30036EEAA /* Lenore.png in Resources */,
+				C95845431E5F7DB20031CB5C /* photograph_Select@2x.png in Resources */,
 				C911685A1E545B3F0036EEAA /* images (1).jpeg in Resources */,
+				C95845461E5F7DB20031CB5C /* photograph@3x.png in Resources */,
 				C9222AA01E52F2220016AC3F /* Main.storyboard in Resources */,
 				C91168371E5352EA0036EEAA /* article.jpg in Resources */,
 				C91168351E5352EA0036EEAA /* 1_093453108.jpg in Resources */,
@@ -861,13 +882,14 @@
 				C94BBCBA1E5DD0B200690438 /* erfilter.cpp in Sources */,
 				C94BBCF11E5DD10200690438 /* GlobalData.cpp in Sources */,
 				C94BBCD91E5DD0BF00690438 /* core_func.cpp in Sources */,
+				C95845491E5F7E3A0031CB5C /* LxCameraView.m in Sources */,
 				C94BBCDB1E5DD0BF00690438 /* params.cpp in Sources */,
 				C94BBCF61E5DD14100690438 /* EasyPR_iOS.xcdatamodeld in Sources */,
 				C94BBCBC1E5DD0B200690438 /* xmlParser.cpp in Sources */,
 				C9222A9A1E52F2220016AC3F /* AppDelegate.m in Sources */,
 				C94BBCDD1E5DD0BF00690438 /* plate_detect.cpp in Sources */,
 				C94BBCB71E5DD0B200690438 /* helper.cpp in Sources */,
-				C94BBCF21E5DD10200690438 /* LxPlateRegManage.m in Sources */,
+				C94BBCF21E5DD10200690438 /* LxPlateRegManage.mm in Sources */,
 				C94BBCE71E5DD0BF00690438 /* kv.cpp in Sources */,
 				C94BBCE91E5DD0BF00690438 /* util.cpp in Sources */,
 				C94BBCDF1E5DD0BF00690438 /* plate_locate.cpp in Sources */,

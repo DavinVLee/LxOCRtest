@@ -8,6 +8,9 @@
 
 #import "LxPlateRegManage.h"
 
+
 @implementation LxPlateRegManage
+
+
 
 @end
